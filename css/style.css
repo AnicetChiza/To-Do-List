@@ -72,4 +72,18 @@ ul li{
     font-weight: bolder;
     cursor: pointer;
     user-select: none;
+    position: relative;
+    align-items: center;
+    padding: 12px 8px 12px 50px;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border: 2px solid rgb(54, 54, 54);
+    border-radius: 50%;
+    top: 12px;
+    left: 8px;
 }
