@@ -84,6 +84,6 @@ ul li::before{
     width: 28px;
     border: 2px solid rgb(54, 54, 54);
     border-radius: 50%;
-    top: 12px;
+    top: 6px;
     left: 8px;
 }
