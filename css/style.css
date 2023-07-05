@@ -71,7 +71,7 @@ ul{
 ul li{
     font-weight: bolder;
     cursor: pointer;
-    /*user-select: none;*/
+    user-select: none;
     position: relative;
     align-items: center;
     padding: 12px 8px 12px 50px;
@@ -88,12 +88,12 @@ ul li::before{
     left: 8px;
 }
 
-ul li .checked{
+ul li.checked{
     color: #153677;
     text-decoration: line-through;
 }
 
-ul li .checked::before{
+ul li.checked::before{
     background-color: #153677;
 }
 
