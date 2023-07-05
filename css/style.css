@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 
 
@@ -61,4 +62,10 @@ button{
     cursor: pointer;
     font-weight: bolder;
     font-family: 'Overpass', sans-serif;
+}
+
+ul li{
+    font-weight: bolder;
+    cursor: pointer;
+    user-select: none;
 }
