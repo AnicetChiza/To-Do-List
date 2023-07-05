@@ -64,6 +64,10 @@ button{
     font-family: 'Overpass', sans-serif;
 }
 
+ul{
+    margin-top: 15px;
+}
+
 ul li{
     font-weight: bolder;
     cursor: pointer;
