@@ -71,7 +71,7 @@ ul{
 ul li{
     font-weight: bolder;
     cursor: pointer;
-    user-select: none;
+    /*user-select: none;*/
     position: relative;
     align-items: center;
     padding: 12px 8px 12px 50px;
@@ -88,12 +88,12 @@ ul li::before{
     left: 8px;
 }
 
-ul li.cheked{
+ul li .checked{
     color: #153677;
     text-decoration: line-through;
 }
 
-ul li.cheked::before{
+ul li .checked::before{
     background-color: #153677;
 }
 
@@ -110,6 +110,6 @@ ul li span{
 }
 
 ul li span:hover{
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(235, 231, 231);
     border-radius: 50%;
 }
