@@ -71,7 +71,7 @@ ul{
 }
 
 ul li{
-    width: 100%;
+    width: 50%;
     font-weight: bolder;
     cursor: pointer;
     user-select: none;
@@ -82,6 +82,7 @@ ul li{
 
 ul li::before{
     content: '';
+    width: 100%;
     position: absolute;
     height: 28px;
     width: 28px;
