@@ -78,7 +78,7 @@ ul li{
     position: relative;
     word-wrap: break-word;
     align-items: center;
-    padding: 12px 8px 12px 50px;
+    padding: 12px 30px 8px 50px;
 }
 
 ul li::before{
