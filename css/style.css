@@ -67,22 +67,22 @@ button{
 }
 
 ul{
+    width: 100%;
     margin-top: 15px;
 }
 
 ul li{
-    width: 50%;
     font-weight: bolder;
     cursor: pointer;
     user-select: none;
     position: relative;
+    word-wrap: break-word;
     align-items: center;
     padding: 12px 8px 12px 50px;
 }
 
 ul li::before{
     content: '';
-    width: 100%;
     position: absolute;
     height: 28px;
     width: 28px;
