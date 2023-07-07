@@ -71,6 +71,7 @@ ul{
 }
 
 ul li{
+    width: 100%;
     font-weight: bolder;
     cursor: pointer;
     user-select: none;
